@@ -4,27 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity">
+    tools:context="com.example.cs441customdrawingandroid.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="bottom|center"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
         <Button
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tap to move" />
+            android:text="Click for drawing a line" />
 
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="124dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reset Position" />
+            android:text="Click for re-drawing the line" />
 
         <LinearLayout
             android:id="@+id/viewLayout"
